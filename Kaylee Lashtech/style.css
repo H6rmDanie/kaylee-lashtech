@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+/* Initial body */
+body {
+    left: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    margin:0;
+    line-height:1.6;
+  }
+  .container {
+    max-width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    padding:0 3rem;
+  }
+
+  #showcase {
+    margin: 0;
+    padding: 0;
+    background:url(/IMG/lash-eyes.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+  }
+  #showcase h1 {
+    font-size: 4rem;
+    margin-bottom: 0 auto;
+  }
+
+  /* Initial menu */
+  .menu {
+    background: #202024 url('/IMG/sanrio-kaylee.png') repeat left top;
+    left: -285px;  /* start off behind the scenes */
+    height: 100%;
+    position: fixed;
+    width: 285px;
+  }
+  /* Basic styling */
+  
+  .jumbotron {
+    background-image: url('/IMG/sanrio-kaylee.png'); 
+    height: 100%;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+  }
+  
+  .menu ul {
+    border-top: 1px solid #636366;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .menu li {
+    border-bottom: 1px solid #636366;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 45px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-top: 3px;
+   
+  }
+  
+  .menu a {
+    color: #000;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .icon-close {
+    cursor: pointer;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  
+  .icon-menu {
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .icon-menu i {
+    margin-right: 5px;
+  }
+
+
+
+ 
